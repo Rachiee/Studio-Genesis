@@ -85,7 +85,7 @@ npx hardhat run scripts/deploy.js --network hedera-testnet
 npx hardhat run scripts/deploy.js --network hedera-mainnet
 \`\`\`
 
-## 📋 Contract Addresses
+## Contract Addresses
 
 After deployment, your contract addresses will be displayed. Keep track of these for integration:
 
@@ -96,7 +96,7 @@ HeritagePlatformCore: 0x...
 // ... other contracts
 \`\`\`
 
-## 🔧 Configuration
+## Configuration
 
 ### Hardhat Configuration
 
@@ -182,7 +182,7 @@ The contracts are optimized for Hedera's gas requirements:
 - Optimized loops and conditionals
 - Gas-efficient data structures
 
-## 🔐 Security Features
+## Security Features
 
 - **Multi-signature support**: Critical operations require multiple signatures
 - **Access control**: Role-based permissions system
@@ -190,7 +190,7 @@ The contracts are optimized for Hedera's gas requirements:
 - **Input validation**: Comprehensive parameter validation
 - **Emergency pause**: Circuit breaker for emergency situations
 
-## 🌐 Network Support
+## Network Support
 
 ### Hedera Testnet
 - **Network ID**: 296
