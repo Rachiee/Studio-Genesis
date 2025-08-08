@@ -1,0 +1,501 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\HP\\Documents\\Hash\\Studio-Genesis\\contracts\\AssetManager.sol": {
+      "lastModificationDate": 1754571388003,
+      "contentHash": "4d813c82d408ed1815b5836ed3c0c375",
+      "sourceName": "contracts/AssetManager.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SystemInterfaces.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "AssetManager"
+      ]
+    },
+    "C:\\Users\\HP\\Documents\\Hash\\Studio-Genesis\\contracts\\SystemInterfaces.sol": {
+      "lastModificationDate": 1754573818095,
+      "contentHash": "5b0f733f86d05730349cd1ef9c063f4d",
+      "sourceName": "contracts/SystemInterfaces.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IHederaTokenService",
+        "INexusEcosystemCore",
+        "IQuantumPlatformCore"
+      ]
+    },
+    "C:\\Users\\HP\\Documents\\Hash\\Studio-Genesis\\contracts\\ModuleDeployer.sol": {
+      "lastModificationDate": 1754575058338,
+      "contentHash": "b1215166b28ec7dd74082bb4c1091112",
+      "sourceName": "contracts/ModuleDeployer.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ServiceManager.sol",
+        "./AssetManager.sol",
+        "./StakeManager.sol",
+        "./CreatorTokenManager.sol",
+        "./SecurityModule.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ModuleDeployer"
+      ]
+    },
+    "C:\\Users\\HP\\Documents\\Hash\\Studio-Genesis\\contracts\\CreatorTokenManager.sol": {
+      "lastModificationDate": 1754571365324,
+      "contentHash": "59cca3763a7611a74599f81b5768f66f",
+      "sourceName": "contracts/CreatorTokenManager.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SystemInterfaces.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "CreatorTokenManager"
+      ]
+    },
+    "C:\\Users\\HP\\Documents\\Hash\\Studio-Genesis\\contracts\\ServiceManager.sol": {
+      "lastModificationDate": 1754571166650,
+      "contentHash": "cabdc3f34f7993f14296cccafe6c6645",
+      "sourceName": "contracts/ServiceManager.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SystemInterfaces.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ServiceManager"
+      ]
+    },
+    "C:\\Users\\HP\\Documents\\Hash\\Studio-Genesis\\contracts\\StakeManager.sol": {
+      "lastModificationDate": 1754571144680,
+      "contentHash": "d1ef6e1aaa65a6e30c54fe4b29818bb5",
+      "sourceName": "contracts/StakeManager.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SystemInterfaces.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "StakeManager"
+      ]
+    },
+    "C:\\Users\\HP\\Documents\\Hash\\Studio-Genesis\\contracts\\SecurityModule.sol": {
+      "lastModificationDate": 1754571190121,
+      "contentHash": "77c58a3ba6becec56af93696448fdc91",
+      "sourceName": "contracts/SecurityModule.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SystemInterfaces.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "SecurityModule"
+      ]
+    },
+    "C:\\Users\\HP\\Documents\\Hash\\Studio-Genesis\\contracts\\TokenExchangeProcessor.sol": {
+      "lastModificationDate": 1754571073284,
+      "contentHash": "f7557f3fd593510e55e105573f32a0f0",
+      "sourceName": "contracts/TokenExchangeProcessor.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SystemInterfaces.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "TokenExchangeProcessor"
+      ]
+    },
+    "C:\\Users\\HP\\Documents\\Hash\\Studio-Genesis\\contracts\\SecurityManager.sol": {
+      "lastModificationDate": 1754571212426,
+      "contentHash": "2d869faa61df83aad081985f3014c93b",
+      "sourceName": "contracts/SecurityManager.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SystemInterfaces.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "SecurityManager"
+      ]
+    },
+    "C:\\Users\\HP\\Documents\\Hash\\Studio-Genesis\\contracts\\QuantumPlatformCore.sol": {
+      "lastModificationDate": 1754571264015,
+      "contentHash": "03a2fc07935c4040e2a3bbd7766bd50b",
+      "sourceName": "contracts/QuantumPlatformCore.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SystemInterfaces.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "QuantumPlatformCore"
+      ]
+    },
+    "C:\\Users\\HP\\Documents\\Hash\\Studio-Genesis\\contracts\\PlatformGateway.sol": {
+      "lastModificationDate": 1754571273089,
+      "contentHash": "0030cb164c28ea85bca01dabd3716ff4",
+      "sourceName": "contracts/PlatformGateway.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SystemInterfaces.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "PlatformGateway"
+      ]
+    },
+    "C:\\Users\\HP\\Documents\\Hash\\Studio-Genesis\\contracts\\NexusEcosystemHub.sol": {
+      "lastModificationDate": 1754571295962,
+      "contentHash": "6066d7c687a7c834bc74f289201e7c83",
+      "sourceName": "contracts/NexusEcosystemHub.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SystemInterfaces.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "NexusEcosystemHub"
+      ]
+    },
+    "C:\\Users\\HP\\Documents\\Hash\\Studio-Genesis\\contracts\\SystemOrchestrator.sol": {
+      "lastModificationDate": 1754576490196,
+      "contentHash": "e966ff964383237329a21d555643ae39",
+      "sourceName": "contracts/SystemOrchestrator.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "SystemOrchestrator"
+      ]
+    }
+  }
+}
